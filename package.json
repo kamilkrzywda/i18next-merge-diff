@@ -1,0 +1,32 @@
+{
+    "name": "i18next-merge-diff",
+    "description": "Merge differences between languages in locales folder",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Kamil Krzywda",
+        "email": "krzywda.kamil@gmail.com",
+        "url": "http://kkhost.pl/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kamilkrzywda/i18next-merge-diff.git"
+    },
+    "dependencies": {
+        "colors": "^1.3.3",
+        "dot-object": "^1.7.1",
+        "glob": "^7.1.3",
+        "glob-promise": "^3.4.0",
+        "yargs": "^12.0.5"
+    },
+    "files": [
+        ".bin",
+        "src",
+        "index.js",
+        "package.json",
+        "README.md"
+    ],
+    "preferGlobal": true,
+    "main": "./index.js",
+    "bin": "./.bin/index.js"
+}
