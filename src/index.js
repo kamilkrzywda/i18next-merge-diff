@@ -73,7 +73,7 @@ async function saveTranslations(translations) {
         let file = translations[key];
         if (file.changed) {
             changedFiles += 1;
-            fs.writeFile(file.name, JSON.stringify(file.data), (err) => {
+            fs.writeFile(file.name, JSON.stringify(file.data, null, 2), (err) => {
                 if (err) {
                     console.log('error saving ' + file.name);
                 } else {
